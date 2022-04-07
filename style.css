@@ -135,4 +135,14 @@ button {
   text-align: center;
   color:#CFC913;
   justify-content: center;
+  margin: 5%;
+  padding: 5%;
+}
+
+#passButton{
+  background-color: #CFC913;
+}
+
+#passText{
+  margin:1rem;
 }
