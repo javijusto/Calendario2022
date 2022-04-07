@@ -59,13 +59,16 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color:#CFC913;
 }
 .day:hover {
   background-color: #CFC913;
+  color:#33302B;
 }
 
 .day + #currentDay {
   background-color:#CFC913;
+  color:#33302B;
 }
 .event {
   font-size: 10px;
