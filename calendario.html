@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario 2022</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div id="container">
+      <div id="header">
+        <div id="monthDisplay"></div>
+        <div>
+          <button id="backButton"><i class="fa fa-arrow-left"></i></button>
+          <button id="nextButton"><i class="fa fa-arrow-right"></i></button>
+        </div>
+      </div>
+
+      <div id="weekdays">
+        <div>Lunes</div>
+        <div>Martes</div>
+        <div>Miércoles</div>
+        <div>Jueves</div>
+        <div>Viernes</div>
+        <div>Sábado</div>
+        <div>Domingo</div>
+      </div>
+
+      <div id="calendar"></div>
+    </div>
+
+    <div id="newEventModal">
+      <h2>Nuevo evento</h2>
+
+      <input id="eventTitleInput" placeholder="Event Title" />
+
+      <button id="saveButton">Guardar</button>
+      <button id="cancelButton">Cancelar</button>
+    </div>
+
+    <div id="deleteEventModal">
+      <h2>Evento</h2>
+
+      <p id="eventText"></p>
+
+      <button id="deleteButton">Borrar</button>
+      <button id="closeButton">Cerrar</button>
+    </div>
+
+    <div id="modalBackDrop"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
